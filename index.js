@@ -2,7 +2,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const fs = require("fs");
 
 // Token'ınızı ortam değişkenlerinden alın
-const token = process.env.TELEGRAM_BOT_TOKEN;
+const token = "7787285427:AAHDDIXL-rI44-nKjKLWcjzv2uvePMu2x90";
 
 // Botu polling yöntemi ile başlatın
 const bot = new TelegramBot(token, { polling: true });
